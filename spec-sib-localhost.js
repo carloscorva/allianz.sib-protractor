@@ -78,7 +78,7 @@ describe('Sib Module is tested using Protractor', function () {
         browser.sleep(timeout);
     });
 
-    it('should test using a too short AgentId with wildcard: FindDocuments', function () {
+    it('should test: FindDocuments', function () {
         console.log('should test using a too short AgentId with wildcard: FindDocuments');
         browser.get(endpoint_sib);
         element(by.model('agentId')).sendKeys('10220*');

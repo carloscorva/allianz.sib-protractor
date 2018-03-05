@@ -22,8 +22,8 @@ should have a title
 .should get a result of the Searching using a concatenation of AgentId's        
 .should validate the incorrect use of AgentId's concatenation                   
 .should validate the incorrect number of AgentId's concatenation                
-.should get a result of the Searching using the following Criteria              
-.should get a result of the Searching using the following Criteria              
+.should test using AgentId with a wildcard: FindDocuments
+.should test using a too short AgentId with wildcard: FindDocuments
 .                                                                               
                                                                                 
                                                                                 
