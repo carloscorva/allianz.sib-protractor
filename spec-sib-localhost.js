@@ -1,8 +1,10 @@
 // spec.js
 describe('Sib Module is tested using Protractor', function () {
 
-    var endpoint_welcome = 'http://localhost:8081/cibox-testclients/#!/welcome';
-    var endpoint_sib = 'http://localhost:8081/cibox-testclients/#!/sib';
+//    var endpoint_welcome = 'http://localhost:8081/cibox-testclients/#!/welcome';
+//    var endpoint_sib = 'http://localhost:8081/cibox-testclients/#!/sib';
+    var endpoint_welcome = 'http://sl008079.dcm.allianz:12000/cibox-testclients/#!/welcome';
+    var endpoint_sib = 'http://sl008079.dcm.allianz:12000/cibox-testclients/#!/sib';
     var timeout = 1000;
     var timeoutDetail = 5000;
 
