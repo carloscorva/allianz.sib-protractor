@@ -5,7 +5,7 @@
 
 ## How to run this project
 ```
- protractor conf.js --verbose
+protractor conf-sib-localhost.js --verbose
 ```
 
 ### Output
